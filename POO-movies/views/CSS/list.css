@@ -1,0 +1,42 @@
+ul {
+  flex-direction: row;
+}
+
+.total ul li {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  list-style-type: none;
+  border: 2px solid var(--violet);
+  margin: 1%;
+  padding: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  transition: 1s;
+}
+
+a {
+  transition: 1s;
+  text-decoration: none;
+  color: var(--violet);
+}
+
+.total ul li:hover,
+a:hover {
+  color: var(--rose);
+  border-color: var(--rose);
+}
+
+.total ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+img {
+  margin-bottom: 0.5%;
+}
+
+h2 {
+  font-family: "Unbounded", cursive;
+  color: var(--roseFonce);
+}

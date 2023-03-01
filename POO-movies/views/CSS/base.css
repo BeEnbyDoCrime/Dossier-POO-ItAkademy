@@ -1,0 +1,89 @@
+:root {
+  --violet: rgb(104, 62, 181);
+  --violetFonce: rgb(127, 106, 203);
+  --rose: rgb(255, 194, 226);
+  --saumon: rgb(255, 173, 199);
+  --roseFonce: rgb(255, 153, 182);
+}
+
+/* BASE DE LA PAGE */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  font-family: "Unbounded", cursive;
+  color: var(--violetClair);
+}
+
+header {
+  /* background-color: var(--saumon); */
+  height: 5em;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+  font-family: "Unbounded", cursive;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li {
+  list-style-type: none;
+  border: 2px solid var(--violetFonce);
+  border-radius: 5%;
+  padding: 1%;
+  transition: 1s;
+}
+
+header nav ul li:hover {
+  border-color: var(--rose);
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--violetFonce);
+  transition: 1s;
+}
+
+header nav ul li a:hover {
+  color: var(--rose);
+}
+
+h1 {
+  color: var(--violetClair);
+  font-family: "Unbounded", cursive;
+}
+
+main {
+  background-image: url(/views/CSS/assets/testecran.jpg);
+  background-repeat: repeat;
+  background-size: 100%;
+  min-height: 75em;
+  text-align: center;
+  padding-top: 115px;
+  padding-bottom: 0;
+}
+
+img {
+  height: 500px;
+  width: 350px;
+}
+
+footer {
+  grid-area: footer;
+  /* background-color: var(--saumon); */
+  text-align: center;
+  height: 3em;
+  text-align: center;
+  padding-top: 3%;
+  font-family: "Unbounded", cursive;
+  color: var(--violetFonce);
+  font-size: 1em;
+}

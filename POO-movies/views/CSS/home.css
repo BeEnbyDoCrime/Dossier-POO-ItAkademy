@@ -1,0 +1,35 @@
+.button {
+  border: 2px solid var(--violet);
+  border-radius: 82% 18% 79% 21% / 75% 23% 77% 25%;
+  padding: 0.3%;
+  transition: 1s;
+  width: 10em;
+  margin-left: 47%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.button a {
+  color: var(--violet);
+  transition: 1s;
+  text-decoration: none;
+  font-family: "Unbounded", cursive;
+  font-size: 1.5em;
+}
+
+.button:hover,
+.button a:hover {
+  border-color: var(--rose);
+  color: var(--rose);
+}
+
+h2 {
+  font-family: "Unbounded", cursive;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: var(--violet);
+}
+
+h1 {
+  color: var(--roseFonce);
+}
